@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+  
+  <table>
+    <caption>Common CSS selectors</caption>
+      <thead>
+        <th class="header">CSS Selector</th>
+        <th class="header">Definition</th>
+
+      </thead>
+
+  <tbody> 
+    <tr>
+      <th scope="row">margin</th>
+      <td>sets the margin for the element, how much distance an element keeps from other elements</td>
+    </tr>
+
+    <tr>
+      <th scope="row">padding</th>
+      <td>Padding is how much an element is away from itself — how much distance an element wants to keep with the elements inside it.</td>
+    </tr>
+
+    <tr>
+      <th scope="row">font-weight</th>
+      <td>how thick or thin text should be displayed</td>
+    </tr>
+
+    <tr>
+      <th scope="row">font-size</th>
+      <td>sets the size of a font</td>
+    </tr>
+
+    <tr>
+      <th scope="row">font-family</th>
+      <td>specifies the font for text</td>
+    </tr>
+
+    <tr>
+      <th scope="row">background-image</th>
+      <td>adds an image to the background of an element, also gradient color of a background using 'linear-gradient(direction, color, color, ...)'</td>
+    </tr>
+
+    <tr>
+      <th scope="row">color</th>
+      <td>changes the color of text</td>
+    </tr>
+
+    <tr>
+      <th scope="row">background-color</th>
+      <td>changes the color of the background</td>
+    </tr>
+
+    <tr>
+      <th scope="row">text-align</th>
+      <td>aligns text; left, right, center</td>
+    </tr>
+
+    <tr>
+      <th scope="row">line-height</th>
+      <td>sets the line's height</td>
+    </tr>
+
+    <tr>
+      <th scope="row">letter-spacing</th>
+      <td>increases or decreases the space between letters</td>
+    </tr>
+
+    <tr>
+      <th scope="row">width</th>
+      <td>Sets the width of an element</td>
+    </tr>
+
+    <tr>
+      <th scope="row">border</th>
+      <td>A shorthand property for border-width, border-style and border-color</td>
+    </tr>
+
+    <tr>
+      <th scope="row">border-radius</th>
+      <td>sets radius of all 4 corners of a border, you can also use 'border-top-left-radius' and choose other corners</td>
+    </tr>
+
+    <tr>
+      <th scope="row">border-style</th>
+      <td>chooses the style of the top side of a border, you can also use 'border-top-style' to choose the top side of the border and choose other sides too</td>
+    </tr>
+
+    <tr>
+      <th scope="row">float</th>
+      <td>specifies whether or not a box should float</td>
+    </tr>
+
+    <tr>
+      <th scope="row">opacity</th>
+      <td>sets the opacity level for an element</td>
+    </tr>
+
+  </tbody>
+
+    </table>
+
+
+
+
+
+
+
+
+
+
+ <table>
+    <caption>Pseudo Classes</caption>
+      <thead>
+        <th class="header">Pseudo Classes</th>
+        <th class="header">Definition</th>
+
+      </thead>
+
+   <tbody> 
+   
+     <tr>
+       <th scope="row">:hover</th>
+       <td>when you hover over a link, it will change color</td>
+     </tr>
+
+     <tr>
+       <th scope="row">:first-child</th>
+       <td>matches a specified element that is the first child of another element</td>
+     </tr>
+
+     <tr>
+       <th scope="row">:last-child</th>
+       <td>matches every element that is the last child of its parent</td>
+     </tr>
+
+     <tr>
+       <th scope="row">:lang</th>
+       <td>used to select elements with a lang attribute with the specified value; 'p:lang(language){CSS declaration;}'</td>
+     </tr>
+
+     <tr>
+       <th scope="row">:active</th>
+       <td>selects and styles an active link, link becomes active when you click on it, can be used on all elements. <b>:active MUST come after :hover in order to be effective!</b></td>
+     </tr>
+
+     <tr>
+       <th scope="row">:link</th>
+       <td>selects and styles unvisited links/pages</td>
+     </tr>
+
+     <tr>
+       <th scope="row">:visited</th>
+       <td>selects and styles links to visited pages</td>
+     </tr>
+
+     <tr>
+       <th scope="row">:focus</th>
+       <td>used to select the element that has focus, allowed on elements that accept keyboard events or other user inputs</td>
+     </tr>
+
+     <tr>
+       <th scope="row">:empty</th>
+       <td>represents any element that has no children. Children can be either element nodes or text (including whitespace). Comments, processing instructions, and CSS content do no affect whether an element is considered empty.</td>
+     </tr>
+
+     <tr>
+       <th scope="row">:checked</th>
+       <td>represents any radio, checkbox, or option element that is chekced or toggled to an on state. Control size of checked box/circle</td>
+     </tr>
+
+     <tr>
+       <th scope="row">:invalid</th>
+       <td>selects form elements with a value that does not validate according to the element's settings, like inputting an email in the wrong form</td>
+     </tr>
+
+     <tr>
+       <th scope="row"></th>
+       <td></td>
+     </tr>
+
+    <tr>
+       <th scope="row"></th>
+       <td></td>
+     </tr>
+   
+   </tbody>
+
+  </table>
+
+</body>
+
+
+</html>
